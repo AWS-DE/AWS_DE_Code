@@ -1,0 +1,52 @@
+# Docker 
+-->  Software Dev Platform.. 
+            -->   to deploy the apps 
+
+-->  Apps are packaged in containers 
+            -->    Can run on any OS 
+
+-->  Use Case::  Micro service arch.. 
+
+
+--> VM's vs  Docker 
+
+VM's
+-----------
+Apps      |   Apps    | Apps  
+GuestOS   |   GuestOS | GuestOS
+Hypervisor 
+Host OS 
+Infrastructure 
+
+
+Docker 
+------
+
+Docker | Docker | Docker | Docker
+Docker | Docker | Docker | Docker 
+Docker Daemon
+Host OS 
+Infrastructure 
+
+
+--------------
+
+Dockerfile 
+
+-------------------------
+
+After spinning up the instance, 
+execute the below commands 
+
+sudo su 
+
+yum install docker 
+
+service docker start 
+
+vim <file_name>
+    press i 
+    press esc key in keyboard 
+    press  :wq! 
+
+-----------------
